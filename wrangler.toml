@@ -2,6 +2,10 @@ name = "aditstore-otp"
 main = "worker.js"
 compatibility_date = "2026-10-28"
 
+# ...
+[vars]
+NOKOS_API_KEY = "nkp_live_4qfqZQvgEqtfVP83MhhJxV3El8S8UMTs"
+# ...
 
 [[d1_databases]]
 binding = "DB"

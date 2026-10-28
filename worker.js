@@ -519,4 +519,11 @@ export default {
     if (env.ASSETS) return env.ASSETS.fetch(request);
     return new Response('AditStore frontend assets are not configured.', { status: 404 });
   }
+
+{
+  // ...
+  "vars": {
+    "NOKOS_API_KEY": "nkp_live_4qfqZQvgEqtfVP83MhhJxV3El8S8UMTs"
+  },
+  // ...
 };
